@@ -40,7 +40,7 @@ export const wallet = {
    */
   connectWallet: async (
     setState: (value: React.SetStateAction<string>) => void
-  ) => {
+  ): Promise<void> => {
     try {
       const { ethereum } = window;
 

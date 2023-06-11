@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import logo from '../assets/cronos.png';
-
 import {
   VideoWrapper,
   VideoTitle,
